@@ -3,7 +3,7 @@ from collections import defaultdict
 
 read = sys.stdin.readline().rstrip().upper()
 
-dict = defaultdict(int)
+dict: dict = defaultdict(int)
 
 for item in read:
     dict[item] += 1
